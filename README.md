@@ -1,5 +1,5 @@
 # BattleShip
-BattleShip with AI's
+BattleShip with AI's \n
 This is a BattleShip game with AIs that my partner and I coded in my Objected Oritented Programming in C++ class.
 It reads from a configuration file that lists the number of rows and columns of the board, and the name and size of each ship for the game. The program also accepts a seed for the random number generator for the AIs.
 The game allows for three modes, Human vs Human, Human vs AI, and AI vs AI.
