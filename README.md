@@ -8,8 +8,8 @@ This project uses many foundational Object Oritented Programming principles as w
 This project was very tedious and time consuming, and I am so happy with the way it turned out! Thank you for looking at my code.
 
 The configuration.txt passed into the command line arguments of this program is in this layout:
-Rows of board
-Table of board
-Number of Ships
-Ship name, ship size
+Rows of board \n
+Columns of board \n
+Number of Ships \n
+Ship name, ship size \n
 Ship name, ship size ... (List all the ships)
