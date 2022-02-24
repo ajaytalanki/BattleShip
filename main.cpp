@@ -15,6 +15,10 @@ int main(int argc, char **argv) {
     std::map<char, int> shipInfo;
     std::ifstream myFile;
     myFile.open(argv[1]);
+    if(!myFile.is_open()) {
+        std::cout << "Invalid configuration file or configuration file not found" << std::endl;
+        return 0;
+    }
     if(argc == 3) {
         seed = atoi(argv[2]);
     }
