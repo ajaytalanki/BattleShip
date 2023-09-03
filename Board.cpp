@@ -1,7 +1,3 @@
-//
-// Created by Ajay Talanki and Andy Lam on 5/5/2021.
-//
-
 #include "Board.h"
 #include <iostream>
 namespace BattleShip {

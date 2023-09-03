@@ -1,7 +1,3 @@
-//
-// Created by Ajay Talanki and Andy Lam on 5/20/2021.
-//
-
 #include "AIPlayer.h"
 #include <iostream>
 

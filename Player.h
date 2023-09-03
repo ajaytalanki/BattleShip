@@ -1,7 +1,3 @@
-//
-// Created by Ajay Talanki and Andy Lam on 5/5/2021.
-//
-
 #ifndef BATTLESHIP__PLAYER_H_
 #define BATTLESHIP__PLAYER_H_
 

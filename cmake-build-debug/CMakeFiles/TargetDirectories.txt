@@ -1,0 +1,3 @@
+/cygdrive/c/Users/ajays/OneDrive/Desktop/Projects/BattleShip/BattleShip/cmake-build-debug/CMakeFiles/BattleShip.dir
+/cygdrive/c/Users/ajays/OneDrive/Desktop/Projects/BattleShip/BattleShip/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/ajays/OneDrive/Desktop/Projects/BattleShip/BattleShip/cmake-build-debug/CMakeFiles/rebuild_cache.dir

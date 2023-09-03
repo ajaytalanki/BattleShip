@@ -1,7 +1,3 @@
-//
-// Created by Ajay Talanki and Andy Lam on 5/20/2021.
-//
-
 #ifndef BATTLESHIP_CHEATINGAI_H
 #define BATTLESHIP_CHEATINGAI_H
 #include "AIPlayer.h"
@@ -18,7 +14,5 @@ namespace BattleShip {
     };
 
 }
-
-
 
 #endif //BATTLESHIP_CHEATINGAI_H

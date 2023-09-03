@@ -1,7 +1,3 @@
-//
-// Created by Ajay Talanki and Andy Lam on 5/20/2021.
-//
-
 #ifndef BATTLESHIP_HUMANPLAYER_H
 #define BATTLESHIP_HUMANPLAYER_H
 #include "Player.h"

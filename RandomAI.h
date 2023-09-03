@@ -1,7 +1,3 @@
-//
-// Created by Ajay Talanki and Andy Lam on 5/20/2021.
-//
-
 #ifndef BATTLESHIP_RANDOMAI_H
 #define BATTLESHIP_RANDOMAI_H
 

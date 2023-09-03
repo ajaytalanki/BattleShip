@@ -1,7 +1,3 @@
-//
-// Created by Ajay Talanki and Andy Lam on 5/5/2021.
-//
-
 #include <iostream>
 #include <map>
 #include "Player.h"
@@ -165,5 +161,4 @@ namespace BattleShip {
             }
         }
     }
-
 }
