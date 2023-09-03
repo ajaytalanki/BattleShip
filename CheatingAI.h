@@ -12,7 +12,6 @@ namespace BattleShip {
     protected:
         std::vector<std::pair<int,int>> moves;
     };
-
 }
 
 #endif //BATTLESHIP_CHEATINGAI_H

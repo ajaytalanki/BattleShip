@@ -8,7 +8,6 @@
 namespace BattleShip {
 
     using Ships = std::map<char, int>;
-
     class Player {
     public:
         Player(const int&rows, const int&cols, const std:: map <char, int>& mapOfShips);  //  allows for compiler automatic initialization for at

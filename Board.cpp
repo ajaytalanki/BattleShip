@@ -107,8 +107,3 @@ namespace BattleShip {
         return Cols;
     }
 }
-
-
-
-
-

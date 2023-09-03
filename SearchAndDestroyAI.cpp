@@ -81,5 +81,4 @@ namespace BattleShip {
         }
         return false;
     }
-
 }

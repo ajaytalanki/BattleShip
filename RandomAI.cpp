@@ -27,5 +27,4 @@ namespace BattleShip{
         randomMoves.erase(randomMoves.begin() + index);
         Board copy = player2PlacementBoard;
     }
-
 }

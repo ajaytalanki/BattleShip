@@ -42,6 +42,5 @@ std::mt19937 AIPlayer::generator;  //  initializes randon number generator
         int random_num = dist(generator);
         return random_num;
     }
-
 }
 
