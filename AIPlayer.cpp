@@ -31,9 +31,8 @@ std::mt19937 AIPlayer::generator;  //  initializes randon number generator
                 }
             } while(!board.isAvailable(rowInput, colInput, ship.second, orientation));
             this->placement_board.place_ship(ship.first, rowInput, colInput, ship.second, orientation);  //  places 1 ship
-            std::cout << this->getName() + "'s Board" << std::endl;
+            std::cout << this->getName() + "'s Board:" << std::endl;
             board.print();
-            std::cout << std::endl;
         }
     }
 
@@ -43,4 +42,3 @@ std::mt19937 AIPlayer::generator;  //  initializes randon number generator
         return random_num;
     }
 }
-

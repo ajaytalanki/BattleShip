@@ -130,6 +130,7 @@ namespace BattleShip {
             std::cout << "Your choice: ";
             std::getline(std::cin, line);
             gotValidInt = getValidInt(line, aiNumber);
+            std::cout << std::endl;
         } while (!gotValidInt || (aiNumber < 1 || aiNumber > 3));
         return aiNumber;  // returns an ai number that will correspond to an AI
     }

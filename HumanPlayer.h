@@ -8,7 +8,6 @@ namespace BattleShip {
         virtual ~HumanPlayer() = default;
         virtual void place_ships(Board &board) override;
         virtual void getMove(int &rowInput, int &colInput, Board& player2PlacementBoard) override;
-
     };
 }
 

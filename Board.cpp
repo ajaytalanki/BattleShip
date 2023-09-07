@@ -6,6 +6,7 @@ namespace BattleShip {
 
 // Function that prints a board
     void BattleShip::Board::print() const {
+        std::cout <<std::endl;
         std::cout << "  ";
         for (int i = 0; i < Cols; ++i) {
             std::cout << i << " ";
@@ -20,6 +21,7 @@ namespace BattleShip {
             std::cout << std::endl;
             ++numRow;
         }
+        std::cout << std::endl;
     }
 
 // Function that makes a board

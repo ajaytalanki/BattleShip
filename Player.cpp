@@ -52,18 +52,18 @@ namespace BattleShip {
             this->getFiringBoard().update('X', rowInput, colInput); // Update the area on the player's target board with an X
             player2.getPlacementBoard().update('X', rowInput,
                                     colInput); // Update the area on the player's placement board with an X
-            std::cout << this->getName() << "'s Firing Board" << std::endl;
+            std::cout << this->getName() << "'s Firing Board:" << std::endl;
             this->getFiringBoard().print();
-            std::cout << std::endl << std::endl << this->getName() << "'s Placement Board" << std::endl;
+            std::cout << this->getName() << "'s Placement Board:" << std::endl;
             this->getPlacementBoard().print();
             player2.updateShipsMap(*this, player2, shipName); // Update the value of the ship in player's ship map.
         } else { // If it was a miss
             this->getFiringBoard().update('O', rowInput, colInput); // Update the area on the player's placement board with an O
             player2.getPlacementBoard().update('O', rowInput,
                                     colInput); // Update the area on the player's placement board with an O
-            std::cout << this->getName() << "'s Firing Board" << std::endl;
+            std::cout << this->getName() << "'s Firing Board:" << std::endl;
             this->getFiringBoard().print();
-            std::cout << std::endl << std::endl << this->getName() << "'s Placement Board" << std::endl;
+            std::cout << this->getName() << "'s Placement Board:" << std::endl;
             this->getPlacementBoard().print();
             std::cout << "Missed." << std::endl << std::endl;
         }

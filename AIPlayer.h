@@ -13,7 +13,6 @@ namespace BattleShip {
         virtual void place_ships(Board &board) override;
         static int getRandomInt(int min, int max);
         static std::mt19937 generator; //  generates all the random numbers in the program for AI's
-
     };
 }
 #endif //BATTLESHIP_AIPLAYER_H

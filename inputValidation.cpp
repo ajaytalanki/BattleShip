@@ -9,8 +9,8 @@ namespace BattleShip {
         bool valid = false;
         do {
             std::string line;
-            std::cout << nameOfPlayer << ", do you want to place " << nameOfShip << " horizontally or vertically?"
-                      << std::endl << "Enter h for horizontal or v for vertical" << std::endl << "Your choice: ";
+            std::cout << nameOfPlayer << ", do you want to place " << nameOfShip
+            << " horizontally (H) or vertically (V): ";
             std::getline(std::cin, line);
             std::stringstream lineParse(line);
             lineParse >> orientation;
@@ -112,8 +112,3 @@ namespace BattleShip {
     }
 
 }
-
-
-
-
-

@@ -27,7 +27,7 @@ namespace BattleShip {
                 orientation = getValidChar(this->getName(), shipName);
                 gotValidInt = getValidInts(
                         (this->getName() + ", enter the row and column you want to place " + shipName + ", which is " +
-                         std::to_string(shipSize) + " long, at with a space in between row and col: "), rowInput,
+                         std::to_string(shipSize) + " long: "), rowInput,
                         colInput);
             } while (!gotValidInt || !checkBounds(orientation, rowInput, colInput, rows, cols, shipSize) ||
                      !board.isAvailable(rowInput, colInput, shipSize, orientation));
@@ -38,9 +38,9 @@ namespace BattleShip {
 
     //  gets valid attack in bounds and new firing spots
     void HumanPlayer::getMove(int &rowInput, int &colInput, Board& player2PlacementBoard) {
-        std::cout << this->getName() << "'s Firing Board" << std::endl;
+        std::cout << this->getName() << "'s Firing Board:" << std::endl;
         this->getFiringBoard().print(); // Display's the first player's boards
-        std::cout << std::endl << std::endl << this->getName() << "'s Placement Board" << std::endl;
+        std::cout << this->getName() << "'s Placement Board:" << std::endl;
         this->getPlacementBoard().print();
         bool gotValidInt;
         Board copy = player2PlacementBoard;
@@ -48,13 +48,13 @@ namespace BattleShip {
             gotValidInt = getValidInts((this->getName() + ", where would you like to fire?\n" +
                                         "Enter your attack coordinate in the form row col: "), rowInput, colInput);
             if (gotValidInt && !firing_board.validAction(rowInput, colInput)) { // If they enter in 2 numbers, check if they are in bounds
-                std::cout << this->getName() << "'s Firing Board" << std::endl;
+                std::cout << std::endl << this->getName() << "'s Firing Board:" << std::endl;
                 firing_board.print();
-                std::cout << std::endl << std::endl << this->getName() << "'s Placement Board" << std::endl;
+                std::cout << std::endl << this->getName() << "'s Placement Board:" << std::endl;
                 placement_board.print();
                 gotValidInt = false;
             }
-        } while (!gotValidInt ); // keep asking if user doesn't enter 2
+        } while (!gotValidInt); // keep asking if user doesn't enter 2
     }
 }
 
