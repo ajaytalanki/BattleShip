@@ -1,12 +1,12 @@
 # BattleShip
 
 ## Configuration  
-The Configuration.txt is the first and only command line argument of this program with the following layout:  
+The Configuration.txt file is the first and only command line argument of this program with the following layout:  
 Number of rows in the board
-Number of columns in the board
-Number of Ships  
+Number of columns in the board  
+Number of Ships    
 Ship name, ship size  
-Ship name, ship size 
+Ship name, ship size  
 (List all the ships) ...  
 
 This is a BattleShip game with AIs that I coded using Object Oriented Programming and Inheritance in C++.
