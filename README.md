@@ -1,7 +1,7 @@
 # BattleShip
 
 ## Configuration  
-The configuration.txt passed into the command line arguments of this program is in this layout:  
+The Configuration.txt passed into the command line arguments of this program is in this layout:  
 Rows of board  
 Columns of board  
 Number of Ships  
