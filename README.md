@@ -1,9 +1,9 @@
 # BattleShip
 
 ## Configuration  
-The Configuration.txt passed into the command line arguments of this program is in this layout:  
-Rows of board  
-Columns of board  
+The Configuration.txt is the first and only command line argument of this program with the following layout:  
+Number of rows in the board
+Number of columns in the board
 Number of Ships  
 Ship name, ship size  
 Ship name, ship size 
