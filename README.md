@@ -23,7 +23,7 @@ There are 3 available game modes:
 ## Game Setup
 1. Player vs Player mode - Player 1 is first asked to enter their username. Then, they are asked what coordinate and orientation each ship should be placed on their board. This process is repeated for Player 2.
 2. Player vs AI mode - Player 1 is asked for a username, board setup, and which AI they would like to play against. Once the type of AI is chosen, the bot randomly places the ships on their board.
-3. AI vs AI mode - Both AI bots randomly place the ships on their respective boards.
+3. AI vs AI mode - The user selects which types of AI's are playing against each other. Both bots randomly select the placement of the ships on their board. 
 
 ## Gameplay 
 Each player takes turns firing shots at the other player's board. If the fire misses, a '0' is placed on the board at the specified coordinate. If the fire hits, a 'X' is placed on the coordinate. This process
