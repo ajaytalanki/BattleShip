@@ -65,7 +65,7 @@ namespace BattleShip {
             this->getFiringBoard().print();
             std::cout << this->getName() << "'s Placement Board:" << std::endl;
             this->getPlacementBoard().print();
-            std::cout << "Missed." << std::endl << std::endl;
+            std::cout << this->getName() << " Missed." << std::endl << std::endl;
         }
     }
 }
